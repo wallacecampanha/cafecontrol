@@ -1,0 +1,60 @@
+.message {
+    color: #ffffff;
+    font-size: var(--font-normal);
+    font-weight: var(--weight-bold);
+
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    margin-bottom: var(--area-box);
+
+    -webkit-border-radius: var(--radius-normal);
+    -moz-border-radius: var(--radius-normal);
+    border-radius: var(--radius-normal);
+}
+
+form .message {
+    text-align: center;
+}
+
+.message.success {
+    --color: var(--color-green);
+    color: var(--color);
+    border-color: var(--color);
+}
+
+.message.info {
+    --color: var(--color-blue);
+    color: var(--color);
+    border-color: var(--color);
+}
+
+.message.warning {
+    --color: var(--color-yellow);
+    color: var(--color);
+    border-color: var(--color);
+}
+
+.message.error {
+    --color: var(--color-red);
+    color: var(--color);
+    border-color: var(--color);
+}
+
+.message_btn {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: var(--color);
+    -webkit-border-radius: var(--radius-normal);
+    -moz-border-radius: var(--radius-normal);
+    border-radius: var(--radius-normal);
+    cursor: pointer;
+    opacity: 0.8;
+    transition-duration: 0.2s;
+}
+
+.message_btn:hover{
+    opacity: 1;
+}
